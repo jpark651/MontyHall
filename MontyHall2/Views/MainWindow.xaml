@@ -1,0 +1,16 @@
+﻿<Window x:Class="MontyHall.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Monty Hall" Height="255" Width="525" ResizeMode="NoResize" Background="Black">
+    <Grid>
+        <Button Content="Start Game" HorizontalAlignment="Left" Margin="70,77,0,77" Name="buttonStart" Width="143" Click="buttonStart_Click" />
+        <Button Content="Statistics" HorizontalAlignment="Right" Margin="0,77,70,77" Name="buttonStats" Width="143" Click="buttonStats_Click" />
+        <Button Content="Main Menu" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,77,70,77" Name="buttonStatsExit" Width="143" Click="buttonStatsExit_Click" />
+        <Button Content="Door 1" HorizontalContentAlignment="Center" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,50,355,0" Name="buttonDoor1" Width="110" Height="160" VerticalAlignment="Top" Click="buttonDoor1_Click" />
+        <Button Content="Door 2" HorizontalContentAlignment="Center" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,50,205,0" Name="buttonDoor2" Width="110" Height="160" VerticalAlignment="Top" Click="buttonDoor2_Click" />
+        <Button Content="Door 3" HorizontalContentAlignment="Center" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,50,55,0" Name="buttonDoor3" Width="110" Height="160" VerticalAlignment="Top" Click="buttonDoor3_Click" />
+        <TextBlock Visibility="Collapsed" HorizontalAlignment="Left" Margin="12,3,0,0" Name="textStats" Height="219" Text="" VerticalAlignment="Top" Width="479" FontSize="11.75" FontWeight="Bold" IsHitTestVisible="False" />
+        <TextBlock Visibility="Collapsed" HorizontalAlignment="Left" Margin="0,3,0,0" Name="textQuestion" Height="39" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="516" FontSize="14" FontWeight="Bold" Foreground="Red" />
+        <Button Content="Back to Menu" HorizontalContentAlignment="Center" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,24,205,0" Name="buttonMainMenu" Width="110" Height="21" VerticalAlignment="Top" Click="buttonMainMenu_Click" />
+    </Grid>
+</Window>
