@@ -1,3 +1,5 @@
+# Monty Hall
+
 This program demonstrates the Monty Hall problem. The user can select from 3 doors, with only one of the doors being correct. After choosing a door, an incorrect door is revealed and the user is given the chance to switch the door they selected.
 
 A page of statistics keeps track of how many games the user wins/loses when switching/keeping their initial door selection.
